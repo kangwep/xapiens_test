@@ -1,0 +1,4 @@
+apiVersion: v2
+name: myapp
+description: A simple HTTP server application
+version: 0.1.0

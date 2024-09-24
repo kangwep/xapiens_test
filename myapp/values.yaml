@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: wahlul/myapp
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  name: myapp
+  type: ClusterIP
+  port: 5000
+
+resources: {}
+
